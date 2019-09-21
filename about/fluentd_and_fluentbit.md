@@ -21,5 +21,5 @@ The following table describes a comparison in different areas of the projects:
 | Plugins | More than 650 plugins available | Around 35 plugins available |
 | License | [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0) | [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0) |
 
-Consider Fluentd mainly as an Aggregator and Fluent Bit as a Log Forwarder, we can see both projects complement each other providing a full reliable solution.
+Consider Fluentd mainly as an Aggregator and [Fluent Bit](https://fluentbit.io) as a Log Forwarder, we can see both projects complement each other providing a full reliable solution.
 
