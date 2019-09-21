@@ -16,6 +16,9 @@
   * [Upgrade Notes](installation/upgrade_notes.md)
   * [Build and Install](installation/build_install.md)
   * [Build with Static Configuration](installation/build_static_configuration.md)
+
+### Sub installation
+
   * [Docker Images](installation/docker.md)
   * [Kubernetes](installation/kubernetes.md)
   * [TD Agent Bit](installation/td-agent-bit.md)
@@ -47,7 +50,13 @@
   * [Upstream Servers](configuration/upstream_servers.md)
   * [Scheduler](configuration/scheduler.md)
   * [Stream Processor](configuration/stream_processor.md)
+
+## Configuration Service
+
 * [Service](service.md)
+
+## Input Plugins
+
 * [Input Plugins](input/README.md)
   * [Metrics](input/metrics/README.md)
     * [CPU Usage](input/metrics/cpu.md)
