@@ -6,6 +6,9 @@
   * [Fluentd & Fluent Bit](about/fluentd_and_fluentbit/README.md)
     * [Untitled](about/fluentd_and_fluentbit/untitled.md)
   * [License](about/license.md)
+
+## Installation test
+
 * [Installation](installation/README.md)
   * [Supported Platforms](installation/supported_platforms.md)
   * [Requirements](installation/requirements.md)
