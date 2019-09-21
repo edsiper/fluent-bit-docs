@@ -16,7 +16,7 @@ The **stdout** output plugin allows to print to the standard output the data rec
 $ bin/fluent-bit -i cpu -o stdout -v
 ```
 
-We have specified to gather [CPU](../input/cpu.md) usage metrics and print them out to the standard output in a human readable way:
+We have specified to gather [CPU](../input/metrics/cpu.md) usage metrics and print them out to the standard output in a human readable way:
 
 ```bash
 $ bin/fluent-bit -i cpu -o stdout -p format=msgpack -v

@@ -55,7 +55,7 @@ Now creates a _stream\_processor.conf_ configuration file with the following con
 
 On the query there are a few things happening:
 
-* Fluent Bit will gather CPU usage metrics through [CPU input plugin](../input/cpu.md) \(metrics are calculated by default every second\).
+* Fluent Bit will gather CPU usage metrics through [CPU input plugin](../input/metrics/cpu.md) \(metrics are calculated by default every second\).
 * Stream Processor have a Task attached to any incoming Stream of data called _cpu\_data_ \(check the alias set in the Input section\).
 * Stream Processor will aggregate the value of _cpu\_p_ record field and calculate it average during a window of 5 seconds. 
 * Stream Processor every 5 seconds will send the results back into Fluent Bit pipeline with a tag called _results_.

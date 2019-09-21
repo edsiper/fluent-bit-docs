@@ -101,7 +101,7 @@ bin/fluent-bit -i INPUT -o forward://HOST:PORT
 
 If the **TAG** parameter is not set, the plugin will set the tag as _fluent\_bit_. Keep in mind that **TAG** is important for routing rules inside [Fluentd](http://fluentd.org).
 
-Using the [CPU](../input/cpu.md) input plugin as an example we will flush CPU metrics to [Fluentd](http://fluentd.org):
+Using the [CPU](../input/metrics/cpu.md) input plugin as an example we will flush CPU metrics to [Fluentd](http://fluentd.org):
 
 ```bash
 $ bin/fluent-bit -i cpu -t fluent_bit -o forward://127.0.0.1:24224
@@ -116,7 +116,7 @@ Now on the [Fluentd](http://fluentd.org) side, you will see the CPU metrics gath
 2017-03-23 11:53:09 -0600 fluent_bit: {"cpu_p":4.75,"user_p":3.5,"system_p":1.25,"cpu0.p_cpu":4.0,"cpu0.p_user":3.0,"cpu0.p_system":1.0,"cpu1.p_cpu":5.0,"cpu1.p_user":4.0,"cpu1.p_system":1.0,"cpu2.p_cpu":3.0,"cpu2.p_user":2.0,"cpu2.p_system":1.0,"cpu3.p_cpu":5.0,"cpu3.p_user":4.0,"cpu3.p_system":1.0}
 ```
 
-So we gathered [CPU](../input/cpu.md) metrics and flushed them out to [Fluentd](http://fluentd.org) properly.
+So we gathered [CPU](../input/metrics/cpu.md) metrics and flushed them out to [Fluentd](http://fluentd.org) properly.
 
 ## Fluent Bit + Secure Forward Setup <a id="secure_forward_setup"></a>
 

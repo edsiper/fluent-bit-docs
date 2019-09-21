@@ -98,12 +98,12 @@ The _input plugins_ provides certain features to gather information from a speci
 
 | option | description | default |
 | :--- | :--- | :--- |
-| [FLB\_IN\_CPU](../input/cpu.md) | Enable CPU input plugin | On |
+| [FLB\_IN\_CPU](../input/metrics/cpu.md) | Enable CPU input plugin | On |
 | [FLB\_IN\_FORWARD](../input/forward.md) | Enable Forward input plugin | On |
 | [FLB\_IN\_HEAD](../input/head.md) | Enable Head input plugin | On |
 | [FLB\_IN\_HEALTH](../input/health.md) | Enable Health input plugin | On |
 | [FLB\_IN\_KMSG](../input/kmsg.md) | Enable Kernel log input plugin | On |
-| [FLB\_IN\_MEM](../input/mem.md) | Enable Memory input plugin | On |
+| [FLB\_IN\_MEM](../input/metrics/mem.md) | Enable Memory input plugin | On |
 | FLB\_IN\_RANDOM | Enable Random input plugin | On |
 | [FLB\_IN\_SERIAL](../input/serial.md) | Enable Serial input plugin | On |
 | [FLB\_IN\_STDIN](../input/stdin.md) | Enable Standard input plugin | On |
